@@ -1,14 +1,9 @@
+import { ThemeProvider } from '@emotion/react'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
-import { Theme, ThemeProvider } from '@emotion/react'
 
-const theme: Theme = {
-  colors: {
-    primary: "#0070f3",
-  },
-}
+import App from './App.tsx'
+import { theme } from './theme/createTheme.ts'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
