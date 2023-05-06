@@ -5,12 +5,13 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 
 import { App } from "./App.tsx"
-import { darkTheme } from "./themes/dark.theme.ts"
+import { theme } from "./themes/theme.ts"
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <React.StrictMode>
-    <ThemeProvider theme={darkTheme} >
+
+  <ThemeProvider theme={theme} >
+    <React.StrictMode>
       <App />
-    </ThemeProvider>
-  </React.StrictMode>,
+    </React.StrictMode>,
+  </ThemeProvider>
 )
