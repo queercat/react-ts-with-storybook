@@ -1,13 +1,13 @@
-import { ThemeProvider } from '@emotion/react'
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import "./index.css"
 
-import { App } from './App.tsx'
-import { darkTheme } from './themes/dark.theme.ts'
+import { ThemeProvider } from "@emotion/react"
+import React from "react"
+import ReactDOM from "react-dom/client"
 
-import './index.css'
+import { App } from "./App.tsx"
+import { darkTheme } from "./themes/dark.theme.ts"
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <ThemeProvider theme={darkTheme} >
       <App />

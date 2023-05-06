@@ -1,5 +1,6 @@
-import { _StaticField } from "./_StaticField";
-import type {Meta, StoryObj } from "@storybook/react";
+import type {Meta, StoryObj } from "@storybook/react"
+
+import { _StaticField } from "./_StaticField.tsx"
 
 const meta: Meta<typeof _StaticField> = {
     title: "_StaticField",

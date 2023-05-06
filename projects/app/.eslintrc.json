@@ -217,7 +217,7 @@
         ],
         "quotes": [
             "error",
-            "single"
+            "double"
         ]
     },
     "env": {
