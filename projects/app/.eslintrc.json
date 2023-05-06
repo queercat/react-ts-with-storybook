@@ -14,7 +14,10 @@
   ],
   "rules": {
     "no-trailing-spaces": [
-      "error"
+      "error",
+      {
+        "ignoreComments": true
+      }
     ],
     "indent": [
       "error",
